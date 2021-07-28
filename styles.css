@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, lightblue, pink);
+    height: 100vh
+}
+
+.counter {
+    text-align: center;
+    font-size:  80px;
+}
+
+.button-container button {
+    padding: 10px 50px;
+    background-color: lightgoldenrodyellow;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.button-container button:hover {
+    padding: 10px 50px;
+    background-color: lightsalmon;
+    cursor: pointer;
+}
